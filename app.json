@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "egitimApp",
-    "slug": "egitimApp",
+    "name": "Last War: Speed-Up Calculator",
+    "slug": "calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.furkanlapcin.calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "820d20a6-729b-47c0-955b-0a4fd51a8476"
+      }
     }
   }
 }
